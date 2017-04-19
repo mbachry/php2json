@@ -1,0 +1,4 @@
+include lib/*
+exclude php2json.c
+global-exclude *.o
+global-exclude *.so

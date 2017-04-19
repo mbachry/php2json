@@ -1,0 +1,9 @@
+.cache/
+.dir-locals.el
+env/
+__pycache__/
+*.o
+*.so
+.tox/
+php2json.egg-info/
+README.html
