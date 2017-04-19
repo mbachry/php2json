@@ -14,7 +14,11 @@ setup(
     author_email='hegel666@gmail.com',
     url='https://github.com/mbachry/php2json',
     # setup_requires=['cython'],
-    ext_modules=[Extension('php2json', sources=['php2json.pyx', 'lib/php2json.c'])],
+    ext_modules=[
+        Extension('php2json',
+                  sources=['php2json.pyx', 'lib/php2json.c'],
+                  extra_compile_args=['-std=gnu99'])
+    ],
     license="MIT",
     zip_safe=False,
     classifiers=[
