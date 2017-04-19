@@ -68,5 +68,5 @@ Few limitations apply:
 * behaviour is undefined in presence of unicode strings
 
 * input data must adhere to JSON standards, most notably: array keys
-  must be strings or values easily convertable to strings (such as
+  must be strings or values easily convertible to strings (such as
   integers)
