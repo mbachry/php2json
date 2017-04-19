@@ -1,6 +1,10 @@
 php2json
 ========
 
+.. image:: https://travis-ci.org/mbachry/php2json.svg?branch=master
+    :alt: Build status
+    :target: https://travis-ci.org/mbachry/php2json
+
 A small library that aims to provide a fast way of decoding PHP
 serialization format. Use it if you need to migrate large amount of
 PHP data and performance is essential.
