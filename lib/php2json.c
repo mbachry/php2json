@@ -215,6 +215,7 @@ static void parse_simple_value(struct parser *p)
 {
     switch (*p->src) {
     case 'i':
+    case 'd':
         parse_int(p);
         break;
     case 'N':

@@ -11,6 +11,10 @@ def test_simple_int():
     assert decode(b'i:157;') == 157
 
 
+def test_simple_double():
+    assert decode(b'i:157.0001;') == 157.0001
+
+
 def test_int_bad_syntax():
     with pytest.raises(ValueError):
         decode(b'i:157')
