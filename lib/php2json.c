@@ -143,6 +143,7 @@ static void parse_string(struct parser *p)
         switch (*p->src) {
         case '\0':
             raise_err(p, "EOF");
+            break;
         case '\b':
             emit_c(p, '\\');
             emit_c(p, 'b');

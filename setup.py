@@ -7,7 +7,7 @@ with open('README.rst') as readme_file:
 
 setup(
     name='php2json',
-    version='0.1',
+    version='0.2',
     description="Convert PHP serializer strings to JSON",
     long_description=readme,
     author="Marcin Bachry",
@@ -29,7 +29,6 @@ setup(
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ]
 )
